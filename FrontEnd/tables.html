@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <link href="img/icon.ico" rel="icon">
+
+  <title>Sistema Gerenciador de Cadastros</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="SGC_Web/FrontEnd/bootstrap_admin.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
+    <a id="titulo" class="navbar-brand mr-10" href="http://localhost:8080/SGCWeb/FrontEnd/index_home.html">Tela de Gerenciamento  |  </a>
+    <a id="titulo" class="navbar-brand mr-10" href="http://localhost:8080/SGCWeb/FrontEnd/tables.html"  >Lista de Cadastrados  | </a>
+    <a id="titulo" class="navbar-brand mr-10" href="http://localhost:8080/SGCWeb/FrontEnd/TelaCadastro-Membros.html"  >Cadastro de Membros  | </a>
+    <a id="titulo" class="navbar-brand mr-10" href="http://localhost:8080/SGCWeb/FrontEnd/deletar.html"  >Exclusão de Membros  | </a>
+
+    <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
+      <i class="fas fa-bars"></i>
+    </button>
+  </nav>
+
+  <div id="wrapper">
+      <img src="https://cloudblogs.microsoft.com/industry-blog/wp-content/uploads/industry/sites/6/2019/01/Data-governance-helps-banks-stay-compliant-in-a-digital-world-1024-300-1024x300.jpg" width=1366px height=300px>
+
+    <div id="content-wrapper">
+
+      <div class="container-fluid">
+
+
+        <!-- DataTables Example -->
+        <div class="card mb-3">
+          <div class="card-header span-titulo">
+            <i class="fas fa-table"></i>
+            </div>
+          <div class="card-body">
+            <div class="table-responsive">
+              <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                  <tr>
+                    <th class="span-titulo">Nome do Membro</th>
+                    <th class="span-titulo">CPF</th>
+                    <th class="span-titulo">Telefone</th>
+                    <th class="span-titulo">Email</th>
+                    <th class="span-titulo">Profissão</th>
+                  </tr>
+                </thead>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  </div>
+</body>
+
+<script src="listartabelas.js"> </script>
+</html>
